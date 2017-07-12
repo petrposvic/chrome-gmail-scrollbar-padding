@@ -1,0 +1,12 @@
+{
+  "name": "Gmail Scrollbar Padding",
+  "description": "Make scrollbar wider to avoid small space on right side.",
+  "version": "1",
+  "manifest_version": 2,
+  "content_scripts": [{
+    "matches": ["https://mail.google.com/*"],
+    "js": ["app.js"],
+    "all_frames": true
+  }]
+}
+
